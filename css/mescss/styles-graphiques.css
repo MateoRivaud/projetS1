@@ -1,12 +1,11 @@
 body {
-  background-color: #4f6e91;
+  background-color: rgba(79, 110, 145, 100%);
 }
 
 .tweet1,
 .tweet2,
 .tweet3 {
-  display: inline-block;
-  background-color: #3277c7;
+  display: block;
+  background-color: rgba(50, 119, 199, 80%);
   margin: 2px;
-  
 }
