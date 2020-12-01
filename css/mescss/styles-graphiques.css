@@ -1,11 +1,68 @@
-body {
+html {
+  max-width: 375px;
   background-color: rgba(79, 110, 145, 100%);
+}
+
+body {
+  position: absolute;
+  background-color: rgba(79, 110, 145, 100%);
+}
+
+header {
+  position: relative;
+  top: 0px;
+}
+
+.barre {
+  display: inline-block;
+  position: fixed;
+  height: 50px;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: rgba(225, 225, 225, 90%);
+}
+
+.tag_line {
+  position: relative;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+main {
+  margin-right: 10px;
 }
 
 .tweet1,
 .tweet2,
 .tweet3 {
-  display: block;
-  background-color: rgba(50, 119, 199, 80%);
-  margin: 2px;
+  background-color: rgba(30, 73, 122, 90%);
+  position: relative;
+  display: inline-block;
+  margin-top: 5px;
+  width: 100%;
+}
+
+img {
+  max-width: 350px;
+  margin: 15px;
+}
+
+footer {
+  background-color: rgba(31, 31, 31, 100%);
+  padding: 0px;
+  margin: 0px;
+  margin-top: 5px;
+  display: tabel cell;
+  columns: 3;
+}
+.mailto_tweet {
+  width: 43%;
+}
+.exercice_pedagogique {
+  width: 13%;
+}
+footer > p:last-of-type {
+  width: 43%;
 }
