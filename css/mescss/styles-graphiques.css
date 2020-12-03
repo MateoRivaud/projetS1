@@ -1,10 +1,11 @@
 html {
-  max-width: 375px;
   background-color: rgba(79, 110, 145, 100%);
 }
 
 body {
   position: absolute;
+  max-width: 375px;
+  margin: 0;
   background-color: rgba(79, 110, 145, 100%);
 }
 
@@ -40,8 +41,17 @@ main {
   background-color: rgba(30, 73, 122, 90%);
   position: relative;
   display: inline-block;
+  margin: 0;
   margin-top: 5px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.tweet1 > a,
+.tweet2 > a,
+.tweet3 > a {
+  align-self: flex-end;
+  margin-right: 20px;
 }
 
 img {
@@ -54,15 +64,8 @@ footer {
   padding: 0px;
   margin: 0px;
   margin-top: 5px;
-  display: tabel cell;
   columns: 3;
-}
-.mailto_tweet {
-  width: 38%;
-}
-.exercice_pedagogique {
-  width: 23%;
-}
-footer > p:last-of-type {
-  width: 38%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

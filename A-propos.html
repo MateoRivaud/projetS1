@@ -7,6 +7,8 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
     <link rel="stylesheet" href="./css/mescss/typography.css" />
     <link rel="stylesheet" href="./css/mescss/styles-graphiques.css" />
 
@@ -33,12 +35,17 @@
 
     <h2>Formulaire de contact</h2>
     <p>Nom</p>
-    <div class="item 1"></div>
+    <div class="item_1"></div>
     <p>Adresse e-mail</p>
-    <div class="item 2"></div>
+    <div class="item_2"></div>
     <p>Votre message</p>
-    <div class="item 3"></div>
-    <p>Captcha</p>
+    <div class="item_3"></div>
+    <form action="?" method="POST">
+      <div
+        class="g-recaptcha"
+        data-sitekey="6Lco2vcZAAAAADfgwEr6jwyQcTebckMwOk8rd_1y"
+      ></div>
+    </form>
 
     <h2>Autres prjets</h2>
     <p>
