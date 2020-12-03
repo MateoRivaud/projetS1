@@ -58,11 +58,11 @@ footer {
   columns: 3;
 }
 .mailto_tweet {
-  width: 43%;
+  width: 38%;
 }
 .exercice_pedagogique {
-  width: 13%;
+  width: 23%;
 }
 footer > p:last-of-type {
-  width: 43%;
+  width: 38%;
 }
