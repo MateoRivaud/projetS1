@@ -14,6 +14,20 @@ header {
   top: 0px;
 }
 
+p {
+  margin: 10px;
+}
+
+h1 {
+  position: relative;
+  top: 15px;
+}
+
+h2,
+h3 {
+  margin: 5px;
+}
+
 .barre {
   display: inline-block;
   position: fixed;
@@ -29,10 +43,6 @@ header {
   padding-top: 2em;
   padding-left: 2em;
   padding-right: 2em;
-}
-
-main {
-  margin-right: 10px;
 }
 
 .tweet1,
