@@ -46,6 +46,14 @@ h3 {
   padding-right: 2em;
 }
 
+iframe,
+video{
+  width: 355px;
+  height: auto;
+  margin: 10px;
+  margin-bottom: 0;
+}
+
 .tweet1,
 .tweet2,
 .tweet3 {
