@@ -2,6 +2,10 @@ header {
   margin-bottom: 25px;
 }
 
+main{
+    margin-top: 60px;
+}
+
 .tag_line {
   color: rgba(50, 119, 199, 80%);
   position: fixed;
@@ -31,5 +35,5 @@ header {
 }
 
 .g-recaptcha {
-  margin: 35px;
+  width: 375px;
 }
