@@ -1,0 +1,16 @@
+.item_1,
+.item_2,
+.item_3{
+  background-color: rgba(225, 225, 225, 100%);
+  width: 305px;
+  height: 50px;
+  margin-left: 35px;
+}
+.item_3{
+  height: 75px;
+  margin-bottom: 2.5rem;
+}
+
+.g-recaptcha{
+    margin: 35px;
+}
