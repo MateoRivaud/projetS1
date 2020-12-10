@@ -38,16 +38,20 @@ a {
 .tweet1 > a,
 .tweet2 > a,
 .tweet3 > a {
-  color: rgba(50, 119, 199, 80%);
+  color: rgba(50, 119, 199, 100%);
   text-decoration: none;
   text-align: right;
 }
 
 footer {
-  color: rgba(225, 225, 225, 80%);
+  color: rgba(225, 225, 225, 100%);
   font-size: 1rem;
 }
 .exercice_pedagogique {
   font-size: 0.5rem;
   text-align: center;
+}
+a{
+  font-style: oblique;
+    color: rgba(225, 225, 225, 80%);
 }
